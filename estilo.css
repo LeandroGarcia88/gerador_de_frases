@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+	background-color: #d2d5d9;
+
+}
+
+button {
+	margin-top: 10px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+input {
+	height: 30px;
+	font-size: 16px;
+}
+
+textarea {
+	font-size: 16px;
+	padding: 3px;
+}
+
+p{
+	padding: 8px;
+}
+
+#container-principal{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 500px;
+	height: 400px;
+	background-image: url(img/fundo.jpg);
+	background-repeat: no-repeat;
+	border-radius: 10px;
+}
+
+
+#container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: auto;
+	border-radius: 5px;
+	background-color: aliceblue;
+	padding: 30px;
+}
+
+#container {
+	box-shadow: 5px 5px;
+}
+
+
+#caixa-texto {
+	padding: 15px;
+	text-align: center;
+}
+
